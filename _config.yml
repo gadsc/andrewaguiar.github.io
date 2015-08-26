@@ -1,3 +1,41 @@
-highlighter: pygments
-github: [Repository metadata]
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
+redcarpet:
+  extensions: ['no_intra_emphasis', 'fenced_code_blocks', 'autolink', 'strikethrough', 'superscript', 'with_toc_data']
+
+# Permalinks
+# permalink:        pretty
+permalink: /blog/:year/:month/:day/:title
+relative_permalinks: true
+
+# Setup
+title:            'Andrew Aguiar'
+tagline:          'Software developer'
+description:      ''
+
+url:             http://www.andrewsaguiar.com/
+assets_base_url: http://www.andrewsaguiar.com/assets/
+
+author:
+  name:           'Andrew S Aguiar'
+  url:            https://br.linkedin.com/in/andrewaguiar
+
+paginate:         999
+
+# Custom vars
+version:          2.1.0
+
+github:
+  url:           https://github.com/andrewaguiar
+
+linkedin:
+  url:           https://br.linkedin.com/in/andrewaguiar
+
+comments: false
+
+baseurl: '/'
+
+gems:
+  - jekyll-redirect-from
 
