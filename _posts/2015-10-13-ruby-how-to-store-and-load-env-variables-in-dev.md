@@ -20,7 +20,6 @@ Or you can use the [dotenv](https://github.com/bkeepers/dotenv), a very simple a
 To use it follow the instructions in [https://github.com/bkeepers/dotenv](https://github.com/bkeepers/dotenv), create you .env with all env variables needed in development and just execute your project using ``bundle``.
 The .env file would be very simple
 
-**.env**
 ```ruby
 FACEBOOK_APP_ID="<FACEBOOK_APP_ID>"
 FACEBOOK_APP_SECRET="<FACEBOOK_APP_SECRET>"
