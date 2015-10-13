@@ -31,4 +31,10 @@ GOOGLE_APP_ID="<GOOGLE_APP_ID>"
 GOOGLE_APP_SECRET="<GOOGLE_APP_SECRET>"
 ```
 
-Just dont forget to add ``.env`` in your ``.gitignore`` to avoid commit credentials or other critical informations in your git repository. You should only add a ``.env.example`` without any information as an example of what should be configured.
+Just dont forget to add ``.env`` in your ``.gitignore`` to avoid commit credentials or other critical informations in your git repository. 
+
+```
+echo ".env" >> .gitignore
+```
+
+You should only add a ``.env.example`` without any information as an example of what should be configured.
