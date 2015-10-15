@@ -12,7 +12,7 @@ relative_permalinks: true
 # Setup
 title:            'Andrew Aguiar'
 tagline:          'Software developer'
-description:      ''
+description:      'Software developer and development instructor'
 
 url:             http://www.andrewsaguiar.com/
 assets_base_url: http://www.andrewsaguiar.com/assets/
