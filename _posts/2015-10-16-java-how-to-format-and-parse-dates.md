@@ -7,6 +7,8 @@ Hi guys here comes a very quick and usefull guide of how to parse and format Dat
 
 ## Using the java.text.DateFormat
 
+### Formatting - from date to string
+
 The simplest way to format a Date in java is to use the ``java.text.DateFormat``, it is an abstract class so we have to use an implementation of it. You can call DateFormat.getInstance methods to get a concrete class and start working.
 
 ```java
@@ -59,4 +61,26 @@ System.out.println(simpleDateFormatEN.format(date));
 System.out.println(Locale.getDefault());
 // vendredi 16 octobre 2015
 // fr
+```
+
+### Parsing - from string to date
+
+To parse a Date to String we use the same Class ``java.text.DateFormat`` with ``getInstance()`` or ``java.text.SimpleDateFormat`` when we have a custom pattern. If the String does not match with the pattern a ``java.text.ParseException`` will be thrown.
+
+```java
+DateFormat simpleDateFormat = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss.SSS");
+Date date = simpleDateFormat.parse("16/10/2015 15:25:07.861");
+```
+
+```java
+DateFormat simpleDateFormatEN = new SimpleDateFormat("EEEE dd MMMM yyyy");
+simpleDateFormatEN.parse("Friday 16 October 2015");
+```
+
+Same thing using Locales
+
+```java
+Locale.setDefault(Locale.FRENCH);
+DateFormat simpleDateFormatFR = new SimpleDateFormat("EEEE dd MMMM yyyy");
+Date parse = simpleDateFormatFR.parse("jeudi 15 octobre 2015");
 ```
