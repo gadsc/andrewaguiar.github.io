@@ -48,7 +48,7 @@ System.out.println(Locale.getDefault());
 And finally we can change the default locale in order to change the month and week day name, ``java.util.Locale`` represents the Locale which will be considered. 
 
 ```java
-Locale.setDefault(Locale.FRANCE);
+Locale.setDefault(Locale.FRENCH);
 ```
 
 Now we can show in French
