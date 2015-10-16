@@ -12,36 +12,42 @@ Hi guys here comes a very quick and usefull guide of how to parse and format Dat
 The simplest way to format a Date in java is to use the ``java.text.DateFormat``, it is an abstract class so we have to use an implementation of it. You can call DateFormat.getInstance methods to get a concrete class and start working.
 
 ```java
-DateFormat dateFormatInstance = DateFormat.getInstance();
-System.out.println(dateFormatInstance.format(new Date()));
+DateFormat df = DateFormat.getInstance();
+System.out.println(df.format(new Date()));
 // 10/16/15 3:15 PM
+```
 
-DateFormat dateFormatTimeInstance = DateFormat.getTimeInstance();
-System.out.println(dateFormatTimeInstance.format(new Date()));
+```java
+DateFormat df = DateFormat.getTimeInstance();
+System.out.println(df.format(new Date()));
 // 3:15:03 PM
+```
 
-DateFormat dateFormatDateInstance = DateFormat.getDateInstance();
-System.out.println(dateFormatDateInstance.format(new Date()));
+```java
+DateFormat df = DateFormat.getDateInstance();
+System.out.println(df.format(new Date()));
 // Oct 16, 2015
+```
 
-DateFormat dateFormatDateAndTimeInstance = DateFormat.getDateTimeInstance();
-System.out.println(dateFormatDateAndTimeInstance.format(new Date()));
+```java
+DateFormat df = DateFormat.getDateTimeInstance();
+System.out.println(df.format(new Date()));
 // Oct 16, 2015 3:15:03 PM
 ```
 
 It works but it is not so usefull, most part of time we want to format a Date using some custom pattern like day month year. We can use ``java.text.SimpleDateFormat`` to customize our date pattern:
 
 ```java
-DateFormat simpleDateFormat = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss.SSS");
-System.out.println(simpleDateFormat.format(date));
+DateFormat df = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss.SSS");
+System.out.println(df.format(date));
 //16/10/2015 15:03:17.396
 ```
 
 We can also show week days and month names just changing the pattern:
 
 ```java
-DateFormat simpleDateFormatEN = new SimpleDateFormat("EEEE dd MMMM yyyy");
-System.out.println(simpleDateFormatEN.format(date));
+DateFormat df = new SimpleDateFormat("EEEE dd MMMM yyyy");
+System.out.println(df.format(date));
 System.out.println(Locale.getDefault());
 // Friday 16 October 2015
 // en_US
@@ -56,8 +62,8 @@ Locale.setDefault(Locale.FRENCH);
 Now we can show in French
 
 ```java
-DateFormat simpleDateFormatEN = new SimpleDateFormat("EEEE dd MMMM yyyy");
-System.out.println(simpleDateFormatEN.format(date));
+DateFormat df = new SimpleDateFormat("EEEE dd MMMM yyyy");
+System.out.println(df.format(date));
 System.out.println(Locale.getDefault());
 // vendredi 16 octobre 2015
 // fr
@@ -65,22 +71,23 @@ System.out.println(Locale.getDefault());
 
 ### Parsing - from string to date
 
-To parse a Date to String we use the same Class ``java.text.DateFormat`` with ``getInstance()`` or ``java.text.SimpleDateFormat`` when we have a custom pattern. If the String does not match with the pattern a ``java.text.ParseException`` will be thrown.
+To parse a Date to String we use the same Class DateFormat but now calling the ``parse`` method, if the String does not match with the pattern a ``java.text.ParseException`` will be thrown.
 
 ```java
-DateFormat simpleDateFormat = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss.SSS");
-Date date = simpleDateFormat.parse("16/10/2015 15:25:07.861");
+DateFormat df = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss.SSS");
+Date date = df.parse("16/10/2015 15:25:07.861");
 ```
 
 ```java
-DateFormat simpleDateFormatEN = new SimpleDateFormat("EEEE dd MMMM yyyy");
-simpleDateFormatEN.parse("Friday 16 October 2015");
+DateFormat df = new SimpleDateFormat("EEEE dd MMMM yyyy");
+df.parse("Friday 16 October 2015");
 ```
 
 Same thing using Locales
 
 ```java
 Locale.setDefault(Locale.FRENCH);
-DateFormat simpleDateFormatFR = new SimpleDateFormat("EEEE dd MMMM yyyy");
-Date parse = simpleDateFormatFR.parse("jeudi 15 octobre 2015");
+
+DateFormat df = new SimpleDateFormat("EEEE dd MMMM yyyy");
+Date parse = df.parse("jeudi 15 octobre 2015");
 ```
