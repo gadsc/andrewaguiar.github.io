@@ -93,6 +93,6 @@ Date parse = df.parse("jeudi 15 octobre 2015");
 ```
 
 ### References
-  - SimpleDateFormat and patterns: [Java 7 SimpleDateFormat JavaDoc](http://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html): 
-  - DateFormat: http://docs.oracle.com/javase/7/docs/api/java/text/DateFormat.html
-  - Locale: http://docs.oracle.com/javase/7/docs/api/java/util/Locale.html
+  - Java 7 SimpleDateFormat and patterns: [http://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html](http://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html).
+  - Java 7 DateFormat: [http://docs.oracle.com/javase/7/docs/api/java/text/DateFormat.html](http://docs.oracle.com/javase/7/docs/api/java/text/DateFormat.html).
+  - Java 7 Locale: [http://docs.oracle.com/javase/7/docs/api/java/util/Locale.html](http://docs.oracle.com/javase/7/docs/api/java/util/Locale.html).
