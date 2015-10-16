@@ -10,19 +10,17 @@ Hi guys here comes a very quick and usefull guide of how to parse and format Dat
 The simplest way to format a Date in java is to use the ``java.text.DateFormat``, it is an abstract class so we have to use an implementation of it. You can call DateFormat.getInstance methods to get a concrete class and start working.
 
 ```java
-Date date = new Date();
-
 DateFormat dateFormatInstance = DateFormat.getInstance();
-System.out.println(dateFormatInstance.format(date));
+System.out.println(dateFormatInstance.format(new Date())); // 10/16/15 3:15 PM
 
 DateFormat dateFormatTimeInstance = DateFormat.getTimeInstance();
-System.out.println(dateFormatTimeInstance.format(date));
+System.out.println(dateFormatTimeInstance.format(new Date())); // 3:15:03 PM
 
 DateFormat dateFormatDateInstance = DateFormat.getDateInstance();
-System.out.println(dateFormatDateInstance.format(date));
+System.out.println(dateFormatDateInstance.format(new Date())); // Oct 16, 2015
 
 DateFormat dateFormatDateAndTimeInstance = DateFormat.getDateTimeInstance();
-System.out.println(dateFormatDateAndTimeInstance.format(date));
+System.out.println(dateFormatDateAndTimeInstance.format(new Date())); // Oct 16, 2015 3:15:03 PM
 ```
 
 It works but it is not so usefull, most part of time we want to format a Date using some custom pattern like day month year. We can use ``java.text.SimpleDateFormat`` to customize our date pattern:
