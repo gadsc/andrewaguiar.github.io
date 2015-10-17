@@ -80,7 +80,7 @@ Date date = df.parse("16/10/2015 15:25:07.861");
 
 ```java
 DateFormat df = new SimpleDateFormat("EEEE dd MMMM yyyy");
-df.parse("Friday 16 October 2015");
+Date date = df.parse("Friday 16 October 2015");
 ```
 
 Same thing using Locales
@@ -89,7 +89,7 @@ Same thing using Locales
 Locale.setDefault(Locale.FRENCH);
 
 DateFormat df = new SimpleDateFormat("EEEE dd MMMM yyyy");
-Date parse = df.parse("jeudi 15 octobre 2015");
+Date date = df.parse("jeudi 15 octobre 2015");
 ```
 
 ### References
