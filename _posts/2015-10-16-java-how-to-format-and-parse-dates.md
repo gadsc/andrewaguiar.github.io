@@ -14,7 +14,12 @@ The simplest way to format a Date in java is to use the ``java.text.DateFormat``
 ```java
 DateFormat df = DateFormat.getInstance();
 System.out.println(df.format(new Date()));
-// 10/16/15 3:15 PM
+```
+
+Output:
+
+```
+10/16/15 3:15 PM
 ```
 
 ```java
