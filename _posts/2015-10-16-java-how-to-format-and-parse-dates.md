@@ -14,30 +14,25 @@ The simplest way to format a Date in java is to use the ``java.text.DateFormat``
 ```java
 DateFormat df = DateFormat.getInstance();
 System.out.println(df.format(new Date()));
-```
-
-Output:
-
-```
-10/16/15 3:15 PM
+// Output: 10/16/15 3:15 PM
 ```
 
 ```java
 DateFormat df = DateFormat.getTimeInstance();
 System.out.println(df.format(new Date()));
-// 3:15:03 PM
+// Output: 3:15:03 PM
 ```
 
 ```java
 DateFormat df = DateFormat.getDateInstance();
 System.out.println(df.format(new Date()));
-// Oct 16, 2015
+// Output: Oct 16, 2015
 ```
 
 ```java
 DateFormat df = DateFormat.getDateTimeInstance();
 System.out.println(df.format(new Date()));
-// Oct 16, 2015 3:15:03 PM
+// Output: Oct 16, 2015 3:15:03 PM
 ```
 
 It works but it is not so usefull, most part of time we want to format a Date using some custom pattern like day month year. We can use ``java.text.SimpleDateFormat`` to customize our date pattern:
@@ -45,7 +40,7 @@ It works but it is not so usefull, most part of time we want to format a Date us
 ```java
 DateFormat df = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss.SSS");
 System.out.println(df.format(date));
-//16/10/2015 15:03:17.396
+// Output: 16/10/2015 15:03:17.396
 ```
 
 We can also show week days and month names just changing the pattern:
@@ -54,8 +49,8 @@ We can also show week days and month names just changing the pattern:
 DateFormat df = new SimpleDateFormat("EEEE dd MMMM yyyy");
 System.out.println(df.format(date));
 System.out.println(Locale.getDefault());
-// Friday 16 October 2015
-// en_US
+// Output: Friday 16 October 2015
+// Output: en_US
 ```
 
 And finally we can change the default locale in order to change the month and week day name, ``java.util.Locale`` represents the Locale which will be considered. 
@@ -70,8 +65,8 @@ Now we can show in French
 DateFormat df = new SimpleDateFormat("EEEE dd MMMM yyyy");
 System.out.println(df.format(date));
 System.out.println(Locale.getDefault());
-// vendredi 16 octobre 2015
-// fr
+// Output: vendredi 16 octobre 2015
+// Output: fr
 ```
 
 ### Parsing - from string to date
