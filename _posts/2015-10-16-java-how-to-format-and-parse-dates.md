@@ -101,7 +101,7 @@ Date date = df.parse("jeudi 15 octobre 2015");
 
 Java 8 brings a new API to deal with Date and Time, ``java.time.*`` fixes some problems related with TimeZones and adds some facilities while using date and time manipulations (adding or substracting days hours minutes).
 
-We can create a ``java.time.format.DateTimeFormatter`` using the ``ofPattern`` passing the same pattern used by ``SimpleDateFormat`` or using any pre created Constant of ``DateTimeFormatter`` examples (BASIC_ISO_DATE, ISO_LOCAL_DATE, ISO_ZONED_DATE_TIME). See [https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html](java/time/format/DateTimeFormatter.html) for more informations.
+We can create a ``java.time.format.DateTimeFormatter`` using the ``ofPattern`` passing the same pattern used by ``SimpleDateFormat`` or using any constant of ``DateTimeFormatter`` examples (BASIC_ISO_DATE, ISO_LOCAL_DATE, ISO_ZONED_DATE_TIME). See [java/time/format/DateTimeFormatter.html](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html) for more informations.
 
 ### Formatting - from date to string
 
@@ -149,3 +149,4 @@ LocalDateTime localDateTime = LocalDateTime.from(temporalAccessor);
   - Java 7 SimpleDateFormat and patterns: [java/text/SimpleDateFormat.html](http://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html).
   - Java 7 DateFormat: [java/text/DateFormat.html](http://docs.oracle.com/javase/7/docs/api/java/text/DateFormat.html).
   - Java 7 Locale: [java/util/Locale.html](http://docs.oracle.com/javase/7/docs/api/java/util/Locale.html).
+  - Java 8 Time Api [articles/java/jf14-date-time-2125367.html](http://www.oracle.com/technetwork/articles/java/jf14-date-time-2125367.html)
