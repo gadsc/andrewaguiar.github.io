@@ -3,12 +3,12 @@ layout: post
 title: "Ruby - Quick capybaha cheat sheet"
 ---
 
-# Navigation
+## Navigation
 ```ruby
 visit '/'
 ```
 
-# Clicking
+## Clicking
 ```ruby
 click 'text'
 click_link 'id|text'
@@ -16,7 +16,7 @@ click_button 'Save'
 click_on 'link text|button value'
 ```
 
-# Forms
+## Forms
 ```ruby
 fill_in 'id', with: 'Text'
 choose 'radio'
@@ -42,7 +42,7 @@ expect(page).to have_unchecked_field
 expect(page).to have_xpath
 ```
 
-# Page
+## Page
 ```ruby
 page.all 'a'
 page.body
@@ -55,11 +55,11 @@ page.status_code
 page.response_headers
 ```
 
-# Debugging
+## Debugging
 ```ruby
 save_and_open_page # Saves a html file with the page content rendered.
 ```
 
-# References
+## References
   - [Capybara github page](https://github.com/jnicklas/capybara)
   - [Capybara documentation](http://www.rubydoc.info/github/jnicklas/capybara/)
