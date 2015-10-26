@@ -52,4 +52,4 @@ When you create a site it is dificult to find good free images with good resolut
   - [http://www.studiopress.com](http://www.studiopress.com): Test your site in several screen sizes.
 
 ## Other good tools
-  - [http://picapp.net/htc_one_m8_gunmetal_2](http://picapp.net/htc_one_m8_gunmetal_2): Generate screens of your site in several devices.
+  - [http://picapp.net](http://picapp.net/htc_one_m8_gunmetal_2): Generate screens of your site in several devices.
