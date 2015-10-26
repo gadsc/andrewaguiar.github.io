@@ -6,6 +6,7 @@ When I started creating some web products and sites I always found my self with 
 
 ## HTML Frameworks
 Create a website from scratch is not easy, you need create a default css, define some css classes, components and guidelines. For this reason I strongly recommend you to use a html framework, this can save you a lots of time and put some order in your code.
+
 In my case for example I don't have any great skill for chose color palletes, alignment, typograph so a html framework helps me to create a minimumly good presented site with few effort.
 
   - [http://getbootstrap.com](http://getbootstrap.com): Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile first projects on the web *(description extracted from getbootstrap website)*.
