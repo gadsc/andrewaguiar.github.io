@@ -447,7 +447,7 @@ a.pagination-item:hover {
 .highlight .sx { color: #c30 } /* Literal.String.Other */
 .highlight .sr { color: #3aa } /* Literal.String.Regex */
 .highlight .s1 { color: #c30 } /* Literal.String.Single */
-.highlight .ss { color: #fc3 } /* Literal.String.Symbol */
+.highlight .ss { color: #A07800 } /* Literal.String.Symbol */
 .highlight .bp { color: #366 } /* Name.Builtin.Pseudo */
 .highlight .vc { color: #033 } /* Name.Variable.Class */
 .highlight .vg { color: #033 } /* Name.Variable.Global */
