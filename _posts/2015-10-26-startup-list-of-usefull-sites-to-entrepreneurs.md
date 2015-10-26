@@ -5,7 +5,7 @@ title: "Startup - List of usefull sites to entrepreneurs"
 When I started creating some web products and sites I always found my self with little options in terms of images, components and tools. Here I present a list of very usefull sites to help you in your work.
 
 ## HTML Frameworks
-Create a website from scratch is not easy, you need create a default css, define some css classes, components and guidelines. For this reason I strongly recommend you to use a html framework
+Create a website from scratch is not easy, you need create a default css, define some css classes, components and guidelines. For this reason I strongly recommend you to use a html framework, this can save you a lots of time and put some order in your code. In my case for example I don't have any great skill for chose color palletes, alignment, typograph so a html framework helps me to create a minimumly good presented site with few effort.
 
   - [http://getbootstrap.com](http://getbootstrap.com): Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile first projects on the web *(description extracted from getbootstrap website)*.
   - [http://foundation.zurb.com](http://foundation.zurb.com): Foundation is a family of responsive front-end frameworks that make it easy to design beautiful responsive websites, apps and emails that look amazing on any device *(description extracted from foundation website)*.
