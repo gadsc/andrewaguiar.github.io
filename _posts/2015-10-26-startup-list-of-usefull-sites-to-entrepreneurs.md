@@ -6,8 +6,8 @@ When I started creating some web products and sites I always found my self with 
 
 ## HTML Frameworks
 
-  - (http://getbootstrap.com/)[http://getbootstrap.com/]
-  - (http://foundation.zurb.com/)[http://foundation.zurb.com/]
+  - [http://getbootstrap.com/](http://getbootstrap.com/)
+  - [http://foundation.zurb.com/](http://foundation.zurb.com/)
 
 ## Images
 
