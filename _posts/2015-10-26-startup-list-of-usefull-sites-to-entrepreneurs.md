@@ -1,3 +1,8 @@
+---
+layout: post
+title: "Java - How to format and parse dates"
+---
+
 When I started creating some web products and sites I always found my self with little options in terms of images, components and tools. Here I present a list of very usefull sites to help you in your work.
 
 ## HTML Frameworks
