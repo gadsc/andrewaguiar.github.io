@@ -38,9 +38,9 @@ When you create a site it is dificult to find good free images with good resolut
 
 ## Themes and templates
 
-  - [https://wrapbootstrap.com/](https://wrapbootstrap.com/): wrapBootstrap is a marketplace for premium Bootstrap themes and templates.
-  - [https://www.foundationdeck.com/](https://www.foundationdeck.com/): Foundation Deck is a foundation theme marketplace.
-  - [http://startbootstrap.com/](http://startbootstrap.com/): Start Bootstrap is a library of free to download Bootstrap 3 themes and templates.
+  - [https://wrapbootstrap.com](https://wrapbootstrap.com): wrapBootstrap is a marketplace for premium Bootstrap themes and templates.
+  - [https://www.foundationdeck.com](https://www.foundationdeck.com): Foundation Deck is a foundation theme marketplace.
+  - [http://startbootstrap.com](http://startbootstrap.com): Start Bootstrap is a library of free to download Bootstrap 3 themes and templates.
 
 ## Testing your site
   - [http://www.webpagetest.org](http://www.webpagetest.org): Test the performance of your site.
