@@ -6,8 +6,8 @@ When I started creating some web products and sites I always found my self with 
 
 ## HTML Frameworks
 
-  - [http://getbootstrap.com/](http://getbootstrap.com/)
-  - [http://foundation.zurb.com/](http://foundation.zurb.com/)
+  - [http://getbootstrap.com](http://getbootstrap.com): Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile first projects on the web --(description extracted from getbootstrap website)--.
+  - [http://foundation.zurb.com](http://foundation.zurb.com): Foundation is a family of responsive front-end frameworks that make it easy to design beautiful responsive websites, apps and emails that look amazing on any device --(description extracted from foundation website)--.
 
 ## Images
 
