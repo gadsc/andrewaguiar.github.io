@@ -36,7 +36,7 @@ When you create a site it is dificult to find good free images with good resolut
   - [http://www.favicon-generator.org](http://www.favicon-generator.org): Generate favicons and icon for Web, Android, Windows Phone and IOS.
   - [https://www.xml-sitemaps.com](https://www.xml-sitemaps.com): Generate the sitemap of your site.
 
-## Themes and 
+## Themes and templates
 
   - [https://wrapbootstrap.com/](https://wrapbootstrap.com/): wrapBootstrap is a marketplace for premium Bootstrap themes and templates.
   - [https://www.foundationdeck.com/](https://www.foundationdeck.com/): Foundation Deck is a foundation theme marketplace.
