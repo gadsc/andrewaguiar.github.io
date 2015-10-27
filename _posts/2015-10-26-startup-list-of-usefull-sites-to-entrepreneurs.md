@@ -9,8 +9,8 @@ Create a website from scratch is not easy, you need create a default css, define
 
 In my case for example I don't have any great skill for chose color palletes, alignment, typograph so a html framework helps me to create a minimumly good presented site with few effort.
 
-  - [http://getbootstrap.com](http://getbootstrap.com): Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile first projects on the web *(description extracted from getbootstrap website)*.
-  - [http://foundation.zurb.com](http://foundation.zurb.com): Foundation is a family of responsive front-end frameworks that make it easy to design beautiful responsive websites, apps and emails that look amazing on any device *(description extracted from foundation website)*.
+  - [getbootstrap.com](http://getbootstrap.com): Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile first projects on the web *(description extracted from getbootstrap website)*.
+  - [foundation.zurb.com](http://foundation.zurb.com): Foundation is a family of responsive front-end frameworks that make it easy to design beautiful responsive websites, apps and emails that look amazing on any device *(description extracted from foundation website)*.
 
 ## Images
 
@@ -36,20 +36,23 @@ When you create a site it is dificult to find good free images with good resolut
   - [http://publicdomainarchive.com](http://publicdomainarchive.com/)
 
 ## Generators
-  - [http://www.favicon-generator.org](http://www.favicon-generator.org): Generate favicons and icon for Web, Android, Windows Phone and IOS.
-  - [https://www.xml-sitemaps.com](https://www.xml-sitemaps.com): Generate the sitemap of your site.
+  - [www.favicon-generator.org](http://www.favicon-generator.org): Generate favicons and icon for Web, Android, Windows Phone and IOS.
+  - [www.xml-sitemaps.com](https://www.xml-sitemaps.com): Generate the sitemap of your site.
 
 ## Themes and templates
 
-  - [https://wrapbootstrap.com](https://wrapbootstrap.com): wrapBootstrap is a marketplace for premium Bootstrap themes and templates.
-  - [https://www.foundationdeck.com](https://www.foundationdeck.com): Foundation Deck is a foundation theme marketplace.
-  - [http://startbootstrap.com](http://startbootstrap.com): Start Bootstrap is a library of free to download Bootstrap 3 themes and templates.
+  - [wrapbootstrap.com](https://wrapbootstrap.com): wrapBootstrap is a marketplace for premium Bootstrap themes and templates.
+  - [www.foundationdeck.com](https://www.foundationdeck.com): Foundation Deck is a foundation theme marketplace.
+  - [startbootstrap.com](http://startbootstrap.com): Start Bootstrap is a library of free to download Bootstrap 3 themes and templates.
 
 ## Testing your site
-  - [http://www.webpagetest.org](http://www.webpagetest.org): Test the performance of your site.
-  - [http://seositecheckup.com](http://seositecheckup.com): SEO (Search Engine Optimization) checkup.
-  - [http://responsivetest.net](http://responsivetest.net): Test how responsive your site is.
-  - [http://www.studiopress.com](http://www.studiopress.com): Test your site in several screen sizes.
+  - [www.webpagetest.org](http://www.webpagetest.org): Test the performance of your site.
+  - [seositecheckup.com](http://seositecheckup.com): SEO (Search Engine Optimization) checkup.
+  - [responsivetest.net](http://responsivetest.net): Test how responsive your site is.
+  - [www.studiopress.com](http://www.studiopress.com): Test your site in several screen sizes.
 
-## Other good tools
-  - [http://picapp.net](http://picapp.net/htc_one_m8_gunmetal_2): Generate screens of your site in several devices.
+## Others
+  - [fortawesome.github.io/Font-Awesome](https://fortawesome.github.io/Font-Awesome): Huge set of icons as fonts.
+  - [www.iconfinder.com](http://www.iconfinder.com): icon database (not free).
+  - [picapp.net](http://picapp.net/htc_one_m8_gunmetal_2): Generate screens of your site in several devices.
+  - [lipis.github.io/bootstrap-social](http://lipis.github.io/bootstrap-social): Social Sign-In Buttons made in pure CSS based on Bootstrap and Font Awesome.
