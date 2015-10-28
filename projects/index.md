@@ -8,6 +8,7 @@ title: Projects
 Brow is a platform to help travellers to discovery, receive tips and helps from other travellers and even natives, all based on you current location (geo localization).
 
 Technology stack
+
   - Ruby on Rails as backend - http://rubyonrails.org
   - Heroku - https://www.heroku.com
   - Postgresql as relational database - 
@@ -21,6 +22,7 @@ Technology stack
 Ações Bovespa is a web application (mobile friendly) and an android app designed to help people that negociate stocks on São Paulo stock exchange (BMF-Bovespa) to track stock prices.
 
 Technology stack
+
   - Ruby on Rails as backend.
   - Android hybrid app (using WebView)
   - Git with the code hosted in bitbucket.
