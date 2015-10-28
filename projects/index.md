@@ -3,7 +3,7 @@ layout: page
 title: Projects
 ---
 
-## Brow (site)
+## Brow - [brow.io](http://www.brow.io)
 
 Brow is a platform to help travellers to discovery, receive tips and helps from other travellers and even natives, all based on you current location (geo localization).
 
@@ -16,9 +16,7 @@ Technology stack
   - [Solr](http://lucene.apache.org/solr) to geo localization and textual searching
   - [Bootstrap](http://getbootstrap.com) as html5 framework
 
-[brow.io](http://www.brow.io)
-
-## AcoesBovespa (site)
+## AcoesBovespa - [acoesbovespa.com](http://www.acoesbovespa.com)
 
 Ações Bovespa is a web application (mobile friendly) and an android app designed to help people that negociate stocks on São Paulo stock exchange (BMF-Bovespa) to track stock prices.
 
@@ -32,16 +30,11 @@ Technology stack
   - [Solr](http://lucene.apache.org/solr) to geo localization and textual searching
   - [Bootstrap](http://getbootstrap.com) as HTML5 framework
 
-[acoesbovespa.com](http://www.acoesbovespa.com)
-
-## bovespa-prices (gem)
+## bovespa-prices - [rubygems.org/gems/bovespa-prices](https://rubygems.org/gems/bovespa-prices)
 
 Get the price of any stock of BMFBovespa (stock exchange of São Paulo)
 
-[rubygems.org/gems/bovespa-prices](https://rubygems.org/gems/bovespa-prices)
-
-## correios-ws (gem)
+## correios-ws - [rubygems.org/gems/correios-ws](https://rubygems.org/gems/correios-ws)
 
 Uses the correios SOAP to calculate shipping prices, also can return address given a brazilian zipcode.
 
-[rubygems.org/gems/correios-ws](https://rubygems.org/gems/correios-ws)
