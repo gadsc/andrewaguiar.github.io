@@ -9,11 +9,12 @@ Brow is a platform to help travellers to discovery, receive tips and helps from 
 
 Technology stack
 
-  - Ruby on Rails as backend - http://rubyonrails.org
-  - Heroku - https://www.heroku.com
-  - Postgresql as relational database - 
-  - Apache Solr to geo localization and textual searching - http://lucene.apache.org/solr
-  - getbootstrap as html5 framework - http://getbootstrap.com
+  - [Ruby on Rails](http://rubyonrails.org) as backend
+  - [Git](https://git-scm.com) as SCM hosted in [Bitbucket](https://bitbucket.org)
+  - [Heroku](https://www.heroku.com)
+  - [Postgresql](http://www.postgresql.org) as relational database
+  - [Solr](http://lucene.apache.org/solr) to geo localization and textual searching
+  - [Bootstrap](http://getbootstrap.com) as html5 framework
 
 [brow.io](http://www.brow.io)
 
@@ -23,12 +24,13 @@ Ações Bovespa is a web application (mobile friendly) and an android app design
 
 Technology stack
 
-  - Ruby on Rails as backend.
-  - Android hybrid app (using WebView)
-  - Git with the code hosted in bitbucket.
-  - Heroku.
-  - Postgresql as relational database.
-  - getbootstrap as html5 framework - http://getbootstrap.com.
+  - [Ruby on Rails](http://rubyonrails.org) as backend
+  - [Android](https://www.android.com) hybrid app (using WebView)
+  - [Git](https://git-scm.com) as SCM hosted in [Bitbucket](https://bitbucket.org)
+  - [Heroku](https://www.heroku.com)
+  - [Postgresql](http://www.postgresql.org) as relational database
+  - [Solr](http://lucene.apache.org/solr) to geo localization and textual searching
+  - [Bootstrap](http://getbootstrap.com) as HTML5 framework
 
 [acoesbovespa.com](http://www.acoesbovespa.com)
 
